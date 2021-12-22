@@ -2,14 +2,23 @@
 var generateBtn = document.querySelector("#generate");
 
 // 1. Prompt user for password criteria
-//    a. password lenght must be between 8 and 128 
+//    a. password lenght must be between 8 and 128
 //    b. lower case, upper case, numbers and special characters
 
 var uppercase = "ABCDEFGHIIJKLMNOPQRSTUVWXYZ"
 var lowercase = "abcdefghijklmnopqrstuvwxyz"
-var specialcharacters = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var specialcharacters = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~" 
+var passwordlength = 8 < 128
+var passwordvalue = ""
 
-function generatePassword ()
+function generatePassword () {
+
+
+
+  
+
+
+}
 
 
 // 2. Validate the imput
