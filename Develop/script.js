@@ -1,12 +1,13 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
-
-
 // 1. Prompt user for password criteria
 //    a. password lenght must be between 8 and 128
 //    b. lower case, upper case, numbers and special characters
+// 2. Validate the imput
+// 3. Generate password based on criteria
+// 4. Display password on page
+
 
 // variables for the password
 
@@ -23,9 +24,21 @@ var confirmnumbers;
 var confirmspecialcharacters;
 var confirmlenght = "";
 
-
+// create prompts for passwordlength
 function generatePassword () {
 
+var confirmlenght = prompt ("Please choose the number of characters in your password. It must be between 8 and 128 characters")
+
+// while loop if password less than 8 or more than 128 characters long
+
+while (confirmlenght <= 8 || confirmlenght >= 128) {
+
+// add alert if password does not comply
+
+  alert("password length must be between 8 and 128 characters. please try again");
+  var confirmlenght (prompt ("Please choose the number of characters in your password. It must be between 8 and 128 characters"));
+
+}
 
 
   
@@ -34,11 +47,6 @@ function generatePassword () {
 }
 
 
-// 2. Validate the imput
-// 3. Generate password based on criteria
-
-
-// 4. Display password on page
 
 return "generated password will go here"
 
