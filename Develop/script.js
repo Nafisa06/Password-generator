@@ -1,11 +1,13 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword ()
-
 // 1. Prompt user for password criteria
 //    a. password lenght must be between 8 and 128 
 //    b. lower case, upper case, numbers and special characters
+
+function generatePassword ()
+
+
 // 2. Validate the imput
 // 3. Generate password based on criteria
 
