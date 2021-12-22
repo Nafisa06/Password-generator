@@ -5,6 +5,10 @@ var generateBtn = document.querySelector("#generate");
 //    a. password lenght must be between 8 and 128 
 //    b. lower case, upper case, numbers and special characters
 
+var uppercase = "ABCDEFGHIIJKLMNOPQRSTUVWXYZ"
+var lowercase = "abcdefghijklmnopqrstuvwxyz"
+var specialcharacters = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+
 function generatePassword ()
 
 
