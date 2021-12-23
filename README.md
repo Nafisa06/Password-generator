@@ -22,9 +22,10 @@ The following link can be used to view the website on the browser:
 The subsequent windows allow the user to choose additonal features of their password.
 
     ![screenshot two] (Asset/images/ password prompt 2.png)
-     ![screenshot two] (Asset/images/ password prompt 3.png)
-      ![screenshot two] (Asset/images/ password prompt 4.png)
-       ![screenshot two] (Asset/images/ password prompt 5.png)
+    ![screenshot two] (Asset/images/ password prompt 3.png)
+    ![screenshot two] (Asset/images/ password prompt 4.png)
+    ![screenshot two] (Asset/images/ password prompt 5.png)
 
 
-    
+## License
+Licensed under the [MIT License](MIT License.md)
