@@ -15,5 +15,5 @@ The following link can be used to view the website on the browser:
  ## Usage
 
  
-    ![alt text](assets/images/Password prompt 1.png)
+    !(Assets/images/Password prompt 1.png)
     
