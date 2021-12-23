@@ -4,13 +4,14 @@ This week’s assignment looked at applying further Javascript coding to the pro
 
 ## Installation
 
-The profile can be accessed through my GitHub Reposity via the following link:
+The profile can be accessed through my GitHub Repository via the following link:
 
-// https://github.com/Nafisa06/Nafisa-s-Developer-Profile.git 
+    https://github.com/Nafisa06/Password-generator.git
 
 The following link can be used to view the website on the browser:
 
- // file:///C:/Users/asifa/bootcamp/homework/Nafisa-s-Developer-Profile/index.html#About%20Me
+   file:///C:/Users/asifa/bootcamp/homework/Password-generator/Develop/index.html
+
 
  ## Usage
 
