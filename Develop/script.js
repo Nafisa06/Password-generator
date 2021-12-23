@@ -38,7 +38,7 @@ while (confirmLength <= 8 || confirmLength>= 128) {
 
   alert("password length must be between 8 and 128 characters. please try again");
 
-  var confirmlength = window.prompt("Please choose the number of characters in your password. It must be between 8 and 128 characters");
+  confirmLength = window.prompt("Please choose the number of characters in your password. It must be between 8 and 128 characters");
 
 } 
 
