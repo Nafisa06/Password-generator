@@ -21,7 +21,7 @@ var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var confirmUppercase;
 var confirmLowercase;
 var confirmNumbers;
-var confirmSpecialcharacters;
+var confirmSpecialCharacters;
 var confirmLength =""
 
 // create prompts for passwordlength
@@ -44,20 +44,24 @@ while (confirmLength <= 8 || confirmLength>= 128) {
 
 // Prompts for password characters using confirm
 
-var confirmuppercase = confirm ("Click Ok to include uppercase characters")
-var confirmlowercase = confirm ("Click Ok to include lowercase characters")
-var confirmnumbers = confirm ("Click Ok to included numerical values")
-var confirmspecialcharacters = confirm ("Click Ok to include special characters")
-
-
-  
-
+var confirmUppercase = confirm ("Click Ok to include uppercase characters")
+var confirmLowercase = confirm ("Click Ok to include lowercase characters")
+var confirmNumbers = confirm ("Click Ok to included numerical values")
+var confirmSpecialCharacters = confirm ("Click Ok to include special characters")
 
 }
 
+// Password parameters using concat
+
+var passwordCharacters = []
 
 
-return "generated password will go here"
+
+
+
+
+
+
 
 
 // Write password to the #password input
