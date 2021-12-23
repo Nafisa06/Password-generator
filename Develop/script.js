@@ -55,11 +55,25 @@ var confirmSpecialCharacters = confirm ("Click Ok to include special characters"
 
 var passwordCharacters = []
 
+if (confirmUppercase) {
 
+  passwordCharacters = passwordCharacters.concat (uppercase)
+}
 
+if (confirmLowercase) {
 
+  passwordCharacters = passwordCharacters.concat (lowercase)
+}
 
+if (confirmSpecialCharacters) {
 
+  passwordCharacters = passwordCharacters.concat (specialcharacters)
+}
+
+if (confirmNumbers) {
+
+  passwordCharacters = passwordCharacters.concat (numbers)
+}
 
 
 
