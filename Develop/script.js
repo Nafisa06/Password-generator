@@ -75,6 +75,20 @@ if (confirmNumbers) {
   passwordCharacters = passwordCharacters.concat (numbers)
 }
 
+// prompts work on website, but password undefined. Need a return and loop the password character arrays  
+
+var newPassword = ""
+
+for (var i=0; i <confirmLength; i++) {
+
+  newPassword = newPassword + passwordCharacters [Math.floor(Math.random() * passwordCharacters.length)]
+  return (newPassword)
+}
+
+
+
+
+
 
 
 
