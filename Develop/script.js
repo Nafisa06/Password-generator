@@ -11,32 +11,34 @@ var generateBtn = document.querySelector("#generate");
 
 // variables for the password
 
-var uppercase = "ABCDEFGHIIJKLMNOPQRSTUVWXYZ";
-var lowercase = "abcdefghijklmnopqrstuvwxyz";
-var specialcharacters = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~" ;
-var numbers = "0123456789";
+var uppercase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V", "W", "X", "Y", "Z"];
+var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var specialcharacters = ["!", "#", "$", "%", "&","'", "(",")", "*", "+", ",", "-", ".", "/", ";", "<", "=", ">", "?", "@", "[", "\" "]
+var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 //variable declaration for the prompts
 
-var confirmuppercase;
-var confirmlowercase;
-var confirmnumbers;
-var confirmspecialcharacters;
-var confirmlenght = "";
+var confirmUppercase;
+var confirmLowercase;
+var confirmNumbers;
+var confirmSpecialcharacters;
+var confirmLength =""
 
 // create prompts for passwordlength
 function generatePassword () {
 
-var confirmlenght = prompt ("Please choose the number of characters in your password. It must be between 8 and 128 characters")
+var confirmLength  = window.prompt("Password must be between 8 and 128 characters. How many characters would you like for your password");
+
 
 // while loop if password less than 8 or more than 128 characters long
 
-while (confirmlenght <= 8 || confirmlenght >= 128) {
+while (confirmLength <= 8 || confirmLength>= 128) {
 
 // add alert if password does not comply
 
   alert("password length must be between 8 and 128 characters. please try again");
-  var confirmlenght (prompt ("Please choose the number of characters in your password. It must be between 8 and 128 characters"));
+
+  var confirmlength = window.prompt("Please choose the number of characters in your password. It must be between 8 and 128 characters");
 
 } 
 
