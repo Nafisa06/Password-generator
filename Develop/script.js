@@ -82,12 +82,9 @@ var newPassword = ""
 for (var i=0; i <confirmLength; i++) {
 
   newPassword = newPassword + passwordCharacters [Math.floor(Math.random() * passwordCharacters.length)]
-  return (newPassword)
+ 
 }
-
-
-
-
+  return (newPassword)
 
 
 
