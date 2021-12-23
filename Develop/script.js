@@ -38,7 +38,14 @@ while (confirmlenght <= 8 || confirmlenght >= 128) {
   alert("password length must be between 8 and 128 characters. please try again");
   var confirmlenght (prompt ("Please choose the number of characters in your password. It must be between 8 and 128 characters"));
 
-}
+} 
+
+// Prompts for password characters using confirm
+
+var confirmuppercase = confirm ("Click Ok to include uppercase characters")
+var confirmlowercase = confirm ("Click Ok to include lowercase characters")
+var confirmnumbers = confirm ("Click Ok to included numerical values")
+var confirmspecialcharacters = confirm ("Click Ok to include special characters")
 
 
   
