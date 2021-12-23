@@ -14,6 +14,17 @@ The following link can be used to view the website on the browser:
 
  ## Usage
 
+ The first window that comes up allows the user to dictate the number of characters they would like in their new password.
+
  
-    !(Assets/images/Password prompt 1.png)
+    ![Screenshot one](Assets/images/Password prompt 1.png)
+
+The subsequent windows allow the user to choose additonal features of their password.
+
+    ![screenshot two] (Asset/images/ password prompt 2.png)
+     ![screenshot two] (Asset/images/ password prompt 3.png)
+      ![screenshot two] (Asset/images/ password prompt 4.png)
+       ![screenshot two] (Asset/images/ password prompt 5.png)
+
+
     
